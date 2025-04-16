@@ -1,19 +1,25 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+     "produtos": [{ 
+        "id": 1, 
+        "produto": "Jogo 1", 
+        "descricao": "Descrição do Jogo 1", 
+        "foto": "jogo1.PNG", 
+        "preco": 5000 
+    },
+    { 
+        "id": 2, 
+        "produto": "Jogo 2", 
+        "descricao": "Descrição do Jogo 2", 
+        "foto": "jogo2.PNG", 
+        "preco": 5000 
+    },
+
+    { 
+        "id": 3, 
+        "produto": "Jogo 3", 
+        "descricao": "Descrição do Jogo 3", 
+        "foto": "jogo3.PNG", 
+        "preco": 5000 
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    ]
 }
